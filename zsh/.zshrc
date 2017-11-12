@@ -14,7 +14,7 @@ for c in $client; do
 done
 
 #---------------------------------------------------------------------
-# lab setting
+# global setting
 #---------------------------------------------------------------------
 
 # ls-color
@@ -39,7 +39,7 @@ for c in $client; do
 done
 
 # Some environment variables
-export HISTFILE=${HOME}/.zsh_history
+export HISTFILE=${ZDOTDIR:-$HOME}/.zhistory
 export HISTSIZE=10000
 export SAVEHIST=10000
 export USER=$USERNAME

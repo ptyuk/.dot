@@ -1,5 +1,6 @@
 zsh/.zcompdump
 zsh/.zcompdump.zwc
+zsh/.zhistory
 zsh/*/*
 !zsh/*/Makefile
 !zsh/*/tmp_*
