@@ -1,0 +1,27 @@
+#PROMPT
+local host=$(print -P "%m")
+if [[ $host = "localhost" ]]; then
+    hostcolor="3"
+elif [[ $host = "local" ]]; then
+    hostcolor="3"
+elif [[ $host = "rino" ]]; then
+    hostcolor="3"
+else
+    hostcolor='0'
+fi
+precmd() {
+    local left='%K{'$hostcolor'}%n@%m%k %F{'$hostcolor'}%~/%f'
+    local right="%F{7}%W %*%f"
+    # $left と $right の間をスペースで埋めて表示
+    local leftwidth=$(print -P "%n@%m %~/" | wc -c)
+    local rightwidth=$(print -P "%W %*" | wc -c)
+    local padwidth=$(($COLUMNS - ($leftwidth + $rightwidth) + 2))
+    if [[ $padwidth < 0 ]]; then
+        local padwidth=$(($COLUMNS * 2 - ($leftwidth + $rightwidth) + 2))
+    fi
+    print -P $left${(r:$padwidth:: :)}$right
+}
+
+OK="|ω･ "
+NG=";-_-"
+PROMPT="%(?.%F{"$hostcolor"}$OK%f.%F{red}$NG)%f)%F{"$hostcolor"%c%f/ "

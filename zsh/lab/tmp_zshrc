@@ -1,0 +1,5 @@
+# Xilinx ISE,Vivadoの設定
+export LM_LICENSE_FILE=$LM_LICENSE_FILE:2100@falkland
+alias sourcex14="source /opt/xilinx/14.7/ISE_DS/settings64.sh"
+alias sourcex11="source /opt/xilinx/11.1/ISE/settings64.sh"
+alias sourcev="source /opt/xilinx/Vivado/2015.4/settings64.sh"

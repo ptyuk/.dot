@@ -1,0 +1,27 @@
+## common aliases
+alias h='history -r 20'
+
+##alias l='ls -a'
+##alias ls='ls -F'
+##alias la='ls -la -h'
+
+#### colored ls (使うときは以下の comment out をはずす)
+alias l='ls -a --color=auto'
+alias ls='ls -F --color=auto'
+alias la='ls -la -h --color=auto'
+
+alias mv='nocorrect mv -i'
+alias cp='nocorrect cp -i'
+alias mkdir='nocorrect mkdir -m 755'
+alias rm='rm -i'
+alias set_prompt='set prompt="[%n@%m:%~]>"'
+
+alias x='ssh-agent startx'
+alias x8='ssh-agent startx -- -bpp 8'
+alias wl='emacs -e wl'
+alias wlnw='emacs -nw -e wl'
+
+alias w-time="ssh karafuto /var/www/timecard/w-time.rb"
+
+alias sub='subl'
+alias goo='google-chrome'

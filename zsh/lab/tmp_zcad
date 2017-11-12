@@ -1,0 +1,77 @@
+# -------------------------
+# setup for CAD environment
+# -------------------------
+
+# eagle
+# ------------
+export path=($path /opt/cadsoft/eagle/bin(N-/))
+
+# LICENSE FILE
+# ------------
+#export CDS_LIC_FILE=5280@vdec-cad1:5280@vdec-cad2:5280@vdec-cad3:5280@collabo4
+#export SNPSLMD_LICENSE_FILE=1700@vdec-cad1:1700@vdec-cad2:1700@vdec-cad3
+#export MGLS_LICENSE_FILE=1717@vdec-cad1:1717@vdec-cad2:1717@vdec-cad3
+
+# Cadence setup
+# -------------
+#export CDS_DIR=/opt/cadence
+# virtuoso
+#export CDS_INST_DIR=$CDS_DIR/IC06.16.050
+#export path=($path $CDS_INST_DIR/tools/bin(N-/))
+#export path=($path $CDS_INST_DIR/tools/dfII/bin(N-/))
+#export CDS_AUTO_64BIT=ALL
+#export DD_USE_LIBDEFS=NO
+#export MGC_CALIBRE_DRC_RUNSET_FILE=/home/work/yuki/teg/sotb65_1601/layout/drcRunSet
+#export MGC_CALIBRE_LVS_RUNSET_FILE=/home/work/yuki/teg/sotb65_1601/layout/lvsRunSet
+# cdloutのstopviewをauCdlに
+#export CDS_Netlisting_Mode=Analog
+# RTL Compiler
+#export path=($path $CDS_DIR/RC11.12.000/tools.lnx86/bin(N-/))
+# SoC Encounter and RTL Compiler
+#export path=($path $CDS_DIR/SOC09.12.000/tools/bin(N-/))
+# OpenAccess
+#export OA_HOME=$CDS_DIR/IC06.16.050/oa_v22.43.029
+# Verilog-XL, NC-Verilog and SimVision
+#export path=($path $CDS_DIR/IUS/tools/bin(N-/))
+# Assura
+#ASSURAHOME=$CDS_DIR/ASSURA03.20.014-613
+#export path=($path $ASSURAHOME/tools/assura/bin(N-/))
+#export path=($path $ASSURAHOME/tools/dfII/bin(N-/))
+#export path=($path $ASSURAHOME/tools/bin(N-/))
+
+# Synopsis setup
+# --------------
+#export SYNOPSYS_DIR=/opt/synopsys
+# Hspice
+#export path=($path $SYNOPSYS_DIR/hspice_vF-2011.09-SP2/hspice/amd64(N-/))
+# HSim
+#export path=($path $SYNOPSYS_DIR/hsim_vI-2013.12-SP1/hsimplus/platform/amd64/bin(N-/))
+# xa
+#export path=($path $SYNOPSYS_DIR/xa_vI-2013.12-SP1/bin(N-/))
+# Cscope
+#export path=($path $SYNOPSYS_DIR/CosmosScope64_B-2008.09/ai_bin(N-/))
+# Hercules
+#export path=($path $SYNOPSYS_DIR/hercules_vB-2008.09/bin/AMD.64(N-/))
+# Star-RCXT
+#export path=($path $SYNOPSYS_DIR/star-rcxt_vH-2012.12/bin(N-/))
+# prime time
+#export path=($path $SYNOPSYS_DIR/pts_vH-2013.06-SP5-5/bin(N-/))
+# tmax
+#export path=($path $SYNOPSYS_DIR/txs_vI-2013.12-SP2/bin(N-/))
+# icc
+#export path=($path $SYNOPSYS_DIR/icc_vH-2013.03-SP4/bin(N-/))
+# dc
+#export path=($path $SYNOPSYS_DIR/syn_vI-2013.12-SP2/bin(N-/))
+# cscope
+#export path=($path $SYNOPSYS_DIR/CosmosScope/ai_bin(N-/))
+
+# Mentor setup
+# ------------
+#export MENTOR_DIR=/opt/mentor
+# Calibre
+#export path=($path $MENTOR_DIR/ixl_cal_2013.2_18.13/bin(N-/))
+#export MGC_HOME=$MENTOR_DIR/ixl_cal_2013.2_18.13
+
+# model simの設定
+#export MGLS_LICENSE_FILE=1717@vdec-cad1:1717@vdec-cad2:1717@vdec-cad3
+#export path=($path $MENTOR_DIR/modeltech/bin(N-/))

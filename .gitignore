@@ -1,0 +1,4 @@
+zsh/*/*
+!zsh/*/Makefile
+!zsh/*/tmp_*
+!zsh/trash
