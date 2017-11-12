@@ -2,3 +2,5 @@ zsh/*/*
 !zsh/*/Makefile
 !zsh/*/tmp_*
 !zsh/trash
+zsh/.zcompdump
+zsh/.zcompdump.zwc
