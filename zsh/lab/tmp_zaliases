@@ -16,6 +16,8 @@ alias mkdir='nocorrect mkdir -m 755'
 alias rm='rm -i'
 alias set_prompt='set prompt="[%n@%m:%~]>"'
 
+alias vi='vim'
+
 alias x='ssh-agent startx'
 alias x8='ssh-agent startx -- -bpp 8'
 alias wl='emacs -e wl'
