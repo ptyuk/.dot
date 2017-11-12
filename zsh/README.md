@@ -80,10 +80,11 @@ Authors
 
 Use
 -------
-
 *lab*
 cd lab
 make
+cd ~
+ln -s .dot/zsh/.zshenv
 
 Make New client
 -------
