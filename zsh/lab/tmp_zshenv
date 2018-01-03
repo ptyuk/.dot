@@ -58,4 +58,4 @@ if [ -f /home/default/etc/zshenv ] ; then
     . /home/default/etc/zshenv
 fi
 
-if [[ -s "${ZDOTDIR:-$HOME}/lab/cad" ]]; then . ${ZDOTDIR:-$HOME}/lab/cad ; fi
+if [[ -s "${ZDOTDIR:-$HOME}/lab/zcad" ]]; then . ${ZDOTDIR:-$HOME}/lab/zcad ; fi

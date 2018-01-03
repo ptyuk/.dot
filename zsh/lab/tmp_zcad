@@ -75,3 +75,6 @@ export path=($path /opt/cadsoft/eagle/bin(N-/))
 # model simの設定
 #export MGLS_LICENSE_FILE=1717@vdec-cad1:1717@vdec-cad2:1717@vdec-cad3
 #export path=($path $MENTOR_DIR/modeltech/bin(N-/))
+
+# hspice with verilog-A
+PATH=/opt/synopsys/hspice/hspice/bin:$PATH
