@@ -79,3 +79,6 @@ export path=($path /opt/cadsoft/eagle/bin(N-/))
 # hspice with verilog-A
 PATH=/opt/synopsys/hspice/hspice/bin:$PATH
 PATH=/usr/lib/x86_64-linux-gnu:$PATH
+
+# libssl1.0.0 for synergy
+LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/yuki/local/lib/x86_64-linux-gnu
