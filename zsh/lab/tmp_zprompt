@@ -11,7 +11,7 @@ elif [[ $host = "yume" ]]; then
 elif [[ $host = "adaman" ]]; then
     hostcolor='6'
 else
-    hostcolor='0'
+    hostcolor='7'
 fi
 
 precmd() {
