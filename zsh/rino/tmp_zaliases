@@ -27,3 +27,5 @@ alias sub='sublime'
 #alias sub='sublime_text'
 
 alias tunnel='ssh -f -N tunnel'
+
+alias open=xdg-open
