@@ -27,3 +27,5 @@ alias w-time="ssh karafuto /var/www/timecard/w-time.rb"
 
 alias sub='subl'
 alias goo='google-chrome'
+
+alias open=xdg-open
